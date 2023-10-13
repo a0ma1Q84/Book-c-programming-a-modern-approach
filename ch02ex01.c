@@ -16,7 +16,7 @@
 * Q: Create and run Kernighan and Ritchie's famous "hello, world" program.
 * Do you get any warning message from the compiler ? If so, what's needed to make it go away ? 
 *
-* A: The error message: "warning: control reaches end of non-void function" will occur if you compile the program using the C89 standard. 
+* A: The error message : "warning: control reaches end of non-void function" will occur if you compile the program using the C89 standard. 
 To eliminate this warning, insert 'return 0;' at the conclusion of the main() function.
 */
 
@@ -27,4 +27,3 @@ int main(void)
     printf("Hello, world!\n");
     return 0;
 }
-
