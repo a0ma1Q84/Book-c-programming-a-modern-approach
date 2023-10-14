@@ -1,10 +1,10 @@
 /********************************************************************
- * Filename: [ch02ex02.c]                                           *
+ * Filename: [ch02ex03.c]                                           *
  * Author: [a0ma1Q84]                                               *
- * Date: [October 13, 2023]                                         *
+ * Date: [October 14, 2023]                                         *
  *                                                                  *
  * Description:                                                     *
- * This file is a solution to exercise 02, Section 2.2 from         *
+ * This file is a solution to exercise 02, Section 2.4 from         *
  * "C Programming: A Modern Approach, Second Edition" by K. N. King *
  *                                                                  *
  * Note:                                                            *
