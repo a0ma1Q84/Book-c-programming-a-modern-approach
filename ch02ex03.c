@@ -24,14 +24,13 @@
 int main(void) {
   
   int height = 8, length = 12, width = 10;
-  int volume, weight;
+  int volume;
   
   volume = height * length * width;
-  weight = (volume + 165) / 166;
-  
+    
   printf("Dimensions: %dx%dx%d\n", height, length, width);
   printf("Volume (cubic inches): %d\n", volume);
-  printf("Dimensional weight (pounds): %d\n", weight);
+  printf("Dimensional weight (pounds): %d\n", (volume + 165) / 166);
   
   return 0;
 }
