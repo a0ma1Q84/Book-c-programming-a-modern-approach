@@ -4,7 +4,7 @@
  * Date: [October 14, 2023]                                         *
  *                                                                  *
  * Description:                                                     *
- * This file is a solution to exercise 02, Section 2.4 from         *
+ * This file is a solution to exercise 03, Section 2.4 from         *
  * "C Programming: A Modern Approach, Second Edition" by K. N. King *
  *                                                                  *
  * Note:                                                            *
