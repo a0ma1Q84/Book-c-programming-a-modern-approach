@@ -1,0 +1,22 @@
+/*********************************************************************/
+ * Filename: [ch02ex05.txt]                                           *
+ * Author: [a0ma1Q84]                                                 *
+ * Date: [October 17, 2023]                                           *
+ *                                                                    *
+ * Description:                                                       *
+ * This file is a solution to exercise 05, related to Section 2.7 of  *
+ * "C Programming: A Modern Approach, Second Edition" by K. N. King   *
+ *                                                                    *
+ * Note:                                                              *
+ * This solution is solely developed for educational purposes and     *
+ * should not be distributed for commercial use.                      *
+ *********************************************************************/
+
+Q : Which of the following are not legal C identifiers ?
+
+(a) 100_bottles
+(b) _100_bottles
+(c) one_hundred_bottles
+(d) bottles_by_the_hundred_
+
+A : (a) begins with a digit, this is not a legal C identifier.
