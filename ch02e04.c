@@ -13,24 +13,31 @@
  *******************************************************************/
 
 /*
-* Q: Condense the dweight.c program by : 
-* (1) replacing the assignments to height, length and width with initializers
-* (2) removing the weight variable, instead calculating (volume + 165) / 166 with the last printf.
+* Q: Write a program that declares several int and float variables -without initializing them-
+* and then prints their values. Is there any pattern to the values ? 
 */
-
 
 #include <stdio.h>
 
 int main(void) {
-  
-  int height = 8, length = 12, width = 10;
-  int volume;
-  
-  volume = height * length * width;
     
-  printf("Dimensions: %dx%dx%d\n", height, length, width);
-  printf("Volume (cubic inches): %d\n", volume);
-  printf("Dimensional weight (pounds): %d\n", (volume + 165) / 166);
-  
+    int int1, int2, int3;
+    float float1, float2, float3;
+
+    printf("Values of int variables:\n");
+    printf("int1: %d\n", int1);
+    printf("int2: %d\n", int2);
+    printf("int3: %d\n", int3);
+
+    printf("\nValues of float variables:\n");
+    printf("float1: %f\n", float1);
+    printf("float2: %f\n", float2);
+    printf("float3: %f\n", float3);
+
   return 0;
 }
+
+/*
+* A: No, there isn't a guaranteed pattern to these values, as they depend on the current state of memory.
+* When you run the above code, you may see random values for the uninitialized variables. 
+*/
