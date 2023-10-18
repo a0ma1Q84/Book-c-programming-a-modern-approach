@@ -16,25 +16,21 @@
 
 int main(void) 
 {
-  double inputValue = 0.0, result = 0.0;
+    double x = 0.0, result = 0.0;
 
-  /* Prompt the user to enter a value */
-  printf("Enter a value for x : ");
-  scanf("%lf", &inputValue);
+    printf("Enter a value for x: ");
+    scanf("%lf", &x);
 
-  double x = inputValue;
+    /* Calculate the value of the polynomial */
+    result = 
+    3 * x * x * x * x * x +
+    2 * x * x * x * x -
+    5 * x * x * x -
+    x * x +
+    7 * x - 
+    6;
 
-  /* Calculate the result*/
-  result = 
-  ( 3 * x * x * x * x * x ) +
-  ( 2 * x * x * x * x ) -
-  ( 5 * x * x * x ) -
-  ( x * x ) +
-  ( 7 * x ) - 
-  6;
-
-  /* Print the result*/
-  printf("Result is : %.2lf \n", result);
+    printf("Result is: %.2lf \n", result);
   
-  return 0;
+    return 0;
 }
