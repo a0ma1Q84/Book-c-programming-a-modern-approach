@@ -1,0 +1,21 @@
+/*********************************************************************/
+ * Filename: [ch02ex08.txt]                                           *
+ * Author: [a0ma1Q84]                                                 *
+ * Date: [October 18, 2023]                                           *
+ *                                                                    *
+ * Description:                                                       *
+ * This file is a solution to exercise 08, related to Section 2.8 of  *
+ * "C Programming: A Modern Approach, Second Edition" by K. N. King   *
+ *                                                                    *
+ * Note:                                                              *
+ * This solution is solely developed for educational purposes and     *
+ * should not be distributed for commercial use.                      *
+ *********************************************************************/
+
+Q : 
+- How many tokens are there in the following statement ? :
+
+answer=(3*q-p*p)/3;
+
+A :
+- There is 14 tokens in the above statement.
