@@ -1,0 +1,42 @@
+/********************************************************************
+ * Filename: [project05.c]                                          *
+ * Author: [a0ma1Q84]                                               *
+ * Date: [October 18 2023]                                          *
+ *                                                                  *
+ * Description:                                                     *
+ * This file is a solution to project 05, Chapter 2 from            *
+ * "C Programming: A Modern Approach, Second Edition" by K. N. King *
+ *                                                                  *
+ * Note:                                                            *
+ * This solution is solely developed for educational purposes and   *
+ * should not be distributed for commercial use.                    *
+ *******************************************************************/
+
+#include <stdio.h>
+
+
+int main(void) 
+{
+
+  double inputValue = 0.0, result = 0.0;
+
+  /* Prompt the user to enter a value */
+  printf("Enter a value for x : ");
+  scanf("%lf", &inputValue);
+
+  double x = inputValue;
+
+  /* Calculate the result*/
+  result = 
+  ( 3 * x * x * x * x * x ) +
+  ( 2 * x * x * x * x ) -
+  ( 5 * x * x * x ) -
+  ( x * x ) +
+  ( 7 * x ) - 
+  6;
+
+  /* Print the result*/
+  printf("Result is : %.2lf \n", result);
+  
+  return 0;
+}
