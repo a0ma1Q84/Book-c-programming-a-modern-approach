@@ -1,0 +1,23 @@
+/*********************************************************************/
+ * Filename: [ch02ex10.txt]                                           *
+ * Author: [a0ma1Q84]                                                 *
+ * Date: [October 18, 2023]                                           *
+ *                                                                    *
+ * Description:                                                       *
+ * This file is a solution to exercise 10, related to Section 2.8 of  *
+ * "C Programming: A Modern Approach, Second Edition" by K. N. King   *
+ *                                                                    *
+ * Note:                                                              *
+ * This solution is solely developed for educational purposes and     *
+ * should not be distributed for commercial use.                      *
+ *********************************************************************/
+
+Q : 
+In the dweight.c program (Section 2.4), which spaces are essential ? 
+Link : http://knking.com/books/c2/programs/dweight.c
+
+A : 
+From a pure compilation perspective, many spaces aren't strictly necessary.
+
+But spaces between the data type and the variable in declarations are essentials. Without it, the code would not compile. 
+For example: 'int height;' requires a space between int and height.
