@@ -14,10 +14,8 @@
 
 #include <stdio.h>
 
-
 int main(void) 
 {
-
   double inputValue = 0.0, result = 0.0;
 
   /* Prompt the user to enter a value */
