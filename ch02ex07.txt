@@ -20,7 +20,7 @@ Q : Which of the following are keywords in C ?
 (d) printf
 (e) while
 
-
 A: 
+
 (a) and (e) are keywords.
 Note : (b) "If" is not a keyword because C is case-sensitive (but "if" with a lowercase 'i' is a keyword).
