@@ -41,4 +41,4 @@ int main(void)
     printf("$1 bills : %d\n", ones);
 
     return 0;
-}
+} 

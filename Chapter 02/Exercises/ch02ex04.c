@@ -40,4 +40,4 @@ int main(void) {
 /*
 * A: No, there isn't a guaranteed pattern to these values, as they depend on the current state of memory.
 * When you run the above code, you may see random values for the uninitialized variables. 
-*/
+*/ 

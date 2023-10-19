@@ -7,4 +7,4 @@ Write a program that asks the user to enter a dollar-and-cents amount, then disp
 ```
 Enter an amount : 100.00
 With tax added : 105.00
-```
+``` 

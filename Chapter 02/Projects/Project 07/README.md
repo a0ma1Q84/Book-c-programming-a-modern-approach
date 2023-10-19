@@ -12,4 +12,3 @@ $10 bills: 1
 $5 bills : 0
 $1 bills : 3
 ```
-

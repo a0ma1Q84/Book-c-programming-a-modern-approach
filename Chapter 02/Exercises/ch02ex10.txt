@@ -20,4 +20,4 @@ A :
 From a pure compilation perspective, many spaces aren't strictly necessary.
 
 But spaces between the data type and the variable in declarations are essentials. Without it, the code would not compile. 
-For example: 'int height;' requires a space between int and height.
+For example: 'int height;' requires a space between int and height. 

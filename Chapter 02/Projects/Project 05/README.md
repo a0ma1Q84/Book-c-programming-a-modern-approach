@@ -7,5 +7,4 @@ $3x^5 + 2x^4 - 5x^3 - x^2 + 7x - 6$
 
 Hint: 
 C doesn't have an exponentiation operator, so you'll need to multiply `x` by itself repeatedly in order to compute the powers of `x`. 
-
 (For example, `x * x * x` is `x` cubed.)

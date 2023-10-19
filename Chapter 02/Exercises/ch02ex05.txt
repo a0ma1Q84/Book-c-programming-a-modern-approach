@@ -19,4 +19,4 @@ Q : Which of the following are not legal C identifiers ?
 (c) one_hundred_bottles
 (d) bottles_by_the_hundred_
 
-A : (a) begins with a digit, this is not a legal C identifier.
+A : (a) begins with a digit, this is not a legal C identifier. 

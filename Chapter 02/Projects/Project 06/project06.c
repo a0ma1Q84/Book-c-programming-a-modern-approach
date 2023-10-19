@@ -26,4 +26,4 @@ int main(void)
     printf("Result is: %.2lf \n", result);
 
     return 0;
-}
+} 

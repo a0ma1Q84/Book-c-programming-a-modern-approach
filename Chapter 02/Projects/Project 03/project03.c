@@ -17,7 +17,7 @@
 #define PI 3.14159f
 #define SPHERE_VOLUME_FACTOR (4.0f / 3.0f)
 
-int main(void) 
+int main(void)
 {   
   /* Declare variables for the radius, volume, and the radius cubed */
   float radius, volume, cubed_radius;
