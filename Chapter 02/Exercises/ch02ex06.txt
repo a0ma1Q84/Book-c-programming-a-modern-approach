@@ -9,7 +9,7 @@
  *                                                                    *
  * Note:                                                              *
  * This solution is solely developed for educational purposes and     *
- * should not be distributed for commercial use.                      *
+ * should not be distributed or used for any other purpose.           *
  *********************************************************************/
 
 Q : Why is it not a good idea for an identifier to contain more than one adjacent underscore (as in current__balance, for example) ?

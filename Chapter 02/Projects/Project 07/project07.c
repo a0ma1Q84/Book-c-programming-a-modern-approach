@@ -1,10 +1,10 @@
 /********************************************************************
- * Filename: [project06.c]                                          *
+ * Filename: [project07.c]                                          *
  * Author: [a0ma1Q84]                                               *
  * Date: [October 19 2023]                                          *
  *                                                                  *
  * Description:                                                     *
- * This file is a solution to project 06, Chapter 2 from            *
+ * This file is a solution to project 07, Chapter 2 from            *
  * "C Programming: A Modern Approach, Second Edition" by K. N. King *
  *                                                                  *
  * Note:                                                            *
@@ -14,16 +14,31 @@
 
 #include <stdio.h>
 
+#define BILL_20 20
+#define BILL_10 10
+#define BILL_05 5
+#define BILL_01 1
+
 int main(void) 
 {
-    double x = 0.0, result = 0.0;
+    int amount, twenties, tens, fives, ones;
 
-    printf("Enter a value for x: ");
-    scanf("%lf", &x);
-    
-    result = (((( 3 * x + 2 ) * x - 5 ) * x - 1 ) * x + 7 ) * x - 6 ;
+    printf("Enter a dollar amount: ");
+    scanf("%d", &amount);
 
-    printf("Result is: %.2lf \n", result);
+    twenties = amount / BILL_20;
+    amount = amount % 20;
+
+    tens = amount / BILL_10;
+    amount = amount % 10;
+
+    fives = amount / BILL_05;
+    ones = amount % 5;
+
+    printf("$20 bills: %d\n", twenties);
+    printf("$10 bills: %d\n", tens);
+    printf("$5 bills : %d\n", fives);
+    printf("$1 bills : %d\n", ones);
 
     return 0;
 }

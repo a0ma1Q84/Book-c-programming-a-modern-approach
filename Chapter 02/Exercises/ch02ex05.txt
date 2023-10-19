@@ -9,7 +9,7 @@
  *                                                                    *
  * Note:                                                              *
  * This solution is solely developed for educational purposes and     *
- * should not be distributed for commercial use.                      *
+ * should not be distributed or used for any other purpose.           *
  *********************************************************************/
 
 Q : Which of the following are not legal C identifiers ?
